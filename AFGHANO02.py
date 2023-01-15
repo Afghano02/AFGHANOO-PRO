@@ -101,6 +101,7 @@ logo= f'''
 ★ ★.......................................................★ ★
 ★ ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ ★
 ★ ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ ★
+pirnt("")
 {50*"-"}
     Tool Version :     10.0.70
     Thanks Alot  :     AFGHANO
@@ -201,8 +202,8 @@ def main():
         print('[4] Remove Cookie')
         print('[5] Clear Cache')
         print('[6] Best Pass Lists \033[0;97m')
-        print('[7] How To Use Video')
-        print('[0] Exit \033[0;97m')
+        print('\33[1;42m[7] How To Use Video\33[0m')
+        print('[0] \033[0;92mExit \033[0;97m')
         print(50*'-')
         menu_opt = input('Select choice : ')
         if menu_opt =='1':
