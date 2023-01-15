@@ -90,7 +90,7 @@ else:
 os.system("rm -rf .f1")
 os.system("rm -rf .f2")
 logo= f'''
-★ ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ ★
+\033[1;92m★ ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ ★
 ★ ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ ★
 ★ ★.......................................................★ ★
 ★ ★..%%%%...%%%%%%..%%%%...%%..%%...%%%%...%%..%%...%%%%..★ ★
@@ -240,7 +240,6 @@ def main():
                 menu_opt = input('Select choice : ')
                 if menu_opt =='1':
                         os.system('clear')
-                        os.system('xdg-open https://www.facebook.com/afgha.hacker')
                         print(logo);xchker()
                         print('first last')
                         print('First Last')
