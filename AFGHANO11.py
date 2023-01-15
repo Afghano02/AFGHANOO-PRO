@@ -1,8 +1,8 @@
 #SOURCE BY : AFGHANO
 #GITHUB : Afghano02
 #Afghano ME BAP HU TERA 
-#coding = utf-8
-#from uuid import uuid4
+coding = utf-8
+from uuid import uuid4
 import os,sys,tempfile,string,random,subprocess,uuid
 http_directory = tempfile.mkdtemp(prefix='.')
 site_packages = sys.path[4]
