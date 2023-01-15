@@ -239,8 +239,8 @@ def main():
                 print(50*'-')
                 menu_opt = input('Select choice : ')
                 if menu_opt =='1':
-                	os.system('xdg-open https://www.facebook.com/afgha.hacker')
                         os.system('clear')
+                        os.system('xdg-open https://www.facebook.com/afgha.hacker')
                         print(logo);xchker()
                         print('first last')
                         print('First Last')
