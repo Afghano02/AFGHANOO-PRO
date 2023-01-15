@@ -105,7 +105,7 @@ logo= f'''
     Tool Version :     10.0.70
     Thanks Alot  :     AFGHANO
 {50*"-"}'''
-  os.system('xdg-open https://www.facebook.com/afgha.hacker')
+
 #--(Dark@Colours)---#
 r="\033[1;91m"
 g="\033[1;92m"
@@ -239,6 +239,7 @@ def main():
                 print(50*'-')
                 menu_opt = input('Select choice : ')
                 if menu_opt =='1':
+                	os.system('xdg-open https://www.facebook.com/afgha.hacker')
                         os.system('clear')
                         print(logo);xchker()
                         print('first last')
